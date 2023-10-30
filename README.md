@@ -9,7 +9,7 @@
   <a href="#-License">License📝</a>
 </p>
 
-![imgProjetoIgniteFeed](https://github.com/BrunodaSilvaLeite/ignite-front-feed-ts/assets/72769991/b6fbd5d2-cbaa-45c4-b310-cf46c443c187)
+![imgFeedProject](https://github.com/BrunodaSilvaLeite/ignite-front-feed-ts/assets/72769991/bada2d0c-73a3-4a39-b445-4084bba3167d)
 
 ## 🚀 Technologies
 
