@@ -6,7 +6,6 @@
   <a href="#-Technologies">Technologies🚀</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Project">Project🧑‍💻</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-How-to-Run">How to Run 🏃</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-License">License📝</a>
 </p>
 
 ![imgFeedProject](https://github.com/BrunodaSilvaLeite/ignite-front-feed-ts/assets/72769991/bada2d0c-73a3-4a39-b445-4084bba3167d)
@@ -39,6 +38,3 @@ The project "ignite-front-feed-ts" 🧑 💻 is part of the [Ignite](https://app
 
 After the merge of your pull request was made, you can delete your branch.
 
-## :memo:License
-
-This project is under License MIT. See the documentation [LICENSE](LICENSE) for more details.
