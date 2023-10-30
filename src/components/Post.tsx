@@ -4,25 +4,26 @@ import styles from "./Post.module.css";
 
 import { Avatar } from "./Avatar";
 import { Comment } from "./Comment";
-import { useState } from "react";
+import { useState, FormEvent, ChangeEvent, InvalidEvent } from "react";
 
-export function Post({ author, content, publishedAt }: PostProps) {
-  interface Author {
-    name: string;
-    role: string;
-    avatarUrl: string;
-  }
+interface Author {
+  name: string;
+  role: string;
+  avatarUrl: string;
+}
 
-  interface Content {
-    type: "paragraph" | "link";
-    content: string;
-  }
+interface Content {
+  type: string;
+  content: string;
+}
 
-  interface PostProps {
-    author: Author;
-    publishedAt: Date;
-    content: Content[];
-  }
+interface PostProps {
+  author: Author;
+  publishedAt: Date;
+  content: Content[];
+}
+
+export function Post({ author, publishedAt, content }: PostProps) {
   const [comments, setComments] = useState(["Post muito bacana!"]);
 
   const [newCommentText, setNewCommentTex] = useState("");
@@ -38,19 +39,19 @@ export function Post({ author, content, publishedAt }: PostProps) {
     addSuffix: true,
   });
 
-  function handleCreateNewComment(event) {
+  function handleCreateNewComment(event: FormEvent) {
     event.preventDefault();
 
     setComments([...comments, newCommentText]);
     setNewCommentTex("");
   }
 
-  function handleNewCommentChange(event) {
+  function handleNewCommentChange(event: ChangeEvent<HTMLTextAreaElement>) {
     event.target.setCustomValidity("");
     setNewCommentTex(event.target.value);
   }
 
-  function deleteComment(commentToDelete) {
+  function deleteComment(commentToDelete: String) {
     const commentsWithoutDeletedOne = comments.filter((comment) => {
       return comment !== commentToDelete;
     });
@@ -58,7 +59,7 @@ export function Post({ author, content, publishedAt }: PostProps) {
     setComments(commentsWithoutDeletedOne);
   }
 
-  function handleNewCommentInvalid(event) {
+  function handleNewCommentInvalid(event: InvalidEvent<HTMLTextAreaElement>) {
     event.target.setCustomValidity("Esse campo é obrigatório");
   }
 
