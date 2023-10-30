@@ -5,7 +5,7 @@
 <p align="center">
   <a href="#-Technologies">Technologies🚀</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Project">Project🧑‍💻</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#-How-to-Run">How to Run 🏃</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-How-to-Run">How to Run 🏃</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 ![imgFeedProject](https://github.com/BrunodaSilvaLeite/ignite-front-feed-ts/assets/72769991/bada2d0c-73a3-4a39-b445-4084bba3167d)
