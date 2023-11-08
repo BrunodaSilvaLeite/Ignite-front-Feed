@@ -1,5 +1,5 @@
 <p align = "center" >
-  <h1 align="center"> Ignite-front-feed-ts 🧑‍💻 </h1>
+  <h1 align="center"> Ignite-front-Feed 🧑‍💻 </h1>
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@ This project was developed with:
 
 ## 🧑‍💻 Project
 
-The project "ignite-front-feed-ts" 🧑 💻 is part of the [Ignite](https://app.rocketseat.com.br/ignite/react-js-2022) course offered by Rocketseat. This project is the first part of the course, where we learn various concepts in **React.js**.
+The project "Ignite-front-Feed" 🧑 💻 is part of the [Ignite](https://app.rocketseat.com.br/ignite/react-js-2022) course offered by Rocketseat. This project is the first part of the course, where we learn various concepts in **React.js**.
 
 ## 🏃 How to Run
 
