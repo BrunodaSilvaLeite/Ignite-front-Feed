@@ -6,6 +6,7 @@
   <a href="#-Technologies">Technologies🚀</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Project">Project🧑‍💻</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-How-to-Run">How to Run 🏃</a>&nbsp;&nbsp;&nbsp;
+     <a href="#-Figma">Figma🖌️</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 ![imgFeedProject](https://github.com/BrunodaSilvaLeite/ignite-front-feed-ts/assets/72769991/3c0d5b4c-b560-46bc-b779-9758cff7ec04)
@@ -17,6 +18,10 @@ This project was developed with:
 - Typescript
 - NodeJs
 - React(vite)
+
+## 🖌️ Figma 
+Here's the Figma of the project [Figma](https://www.figma.com/community/file/1113573231685349036)
+
 
 ## 🧑‍💻 Project
 
