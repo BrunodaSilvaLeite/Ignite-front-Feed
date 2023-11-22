@@ -19,6 +19,7 @@ This project was developed with:
 - NodeJs
 - React(vite)
 
+
 ## 🖌️ Figma 
 Here's the Figma of the project [Figma](https://www.figma.com/community/file/1113573231685349036)
 
